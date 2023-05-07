@@ -10,7 +10,7 @@
   function myButtonClicked() {
   // input
   const age = parseInt(document.getElementById("age").value);
-  const day = document.getElementById("day-of-the-week").value;
+  const day = document.getElementById("dayOfTheWeek").value;
   
   // process
   if ((age >= 18) && (day == "Saturday" || day == "Sunday")) {
