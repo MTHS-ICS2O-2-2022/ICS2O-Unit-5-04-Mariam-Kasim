@@ -9,8 +9,8 @@
   // Function to decide whether or not the user would be allowed into the movie theatre
   function myButtonClicked() {
   // input
-  const age = parseInt(document.getElementById("age").value);
-  const day = document.getElementById("dayOfTheWeek").value;
+  const age = parseInt(document.getElementById("Age").value);
+  const day = document.getElementById("dayofweek").value;
   
   // process
   if ((age >= 18) && (day == "Saturday" || day == "Sunday")) {
