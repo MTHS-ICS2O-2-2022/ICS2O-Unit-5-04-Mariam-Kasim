@@ -13,11 +13,11 @@
   const day = document.getElementById("day-of-the-week").value;
   
   // process
-  if (age >= 18 && day != "Monday" && day != "Tuesday" && day != "Wednesday" && day != "Thursday") {
+  if ((age >= 18) && (day == "Saturday" || day == "Sunday")) {
     // output
     document.getElementById('answer').innerHTML = "You can go to the movies!";
   }
-  else { age < 18 || day == "Monday" || day == "Tuesday" || day == "Wednesday" || day == "Thursday"
+  else {
     // output
     document.getElementById('answer').innerHTML = "You cannot go to the movies!";
   }
